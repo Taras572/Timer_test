@@ -1,0 +1,30 @@
+.head{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.window{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 130px;
+    margin-bottom: 10px;
+}
+.time{
+    font-size: 70px;
+    text-align: center;
+    line-height: 130px;
+    font-family: 'Monomaniac One', sans-serif;
+}
+.container_btn{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 90px;
+}
